@@ -218,7 +218,7 @@ export default function BookPilotPage() {
                 </div>
                 <div>
                   <label htmlFor="contactNumber" className="block text-sm text-[#D1D5DB] mb-2">Contact Number</label>
-                  <input type="tel" id="contactNumber" name="contactNumber" required value={formData.contactNumber} onChange={handleChange} className={inputClasses} placeholder="+91-9403248693" />
+                  <input type="tel" id="contactNumber" name="contactNumber" required value={formData.contactNumber} onChange={handleChange} className={inputClasses} placeholder="+91-912345678" />
                 </div>
               </div>
 
